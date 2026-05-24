@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TrustLoop PayFlow
 
-## Getting Started
+TrustLoop PayFlow is a Stellar-powered payment cockpit designed for modern operators, OFW remittance workflows, and SME payout operations.
 
-First, run the development server:
+## Problem
+Filipino operators often need a faster, clearer way to move money, confirm status, and reduce operational friction in payout workflows.
 
+## Solution
+TrustLoop PayFlow combines:
+- Freighter-first wallet connectivity
+- Stellar testnet transaction submission
+- Payment activity tracking
+- A premium dashboard for review and operations
+
+## What’s included
+- Wallet connect / reconnect flow
+- Payment form with validation
+- Payment history with search, filter, and sort
+- Dashboard insights for volume, confirmations, pending payments, and activity trends
+- Local activity persistence for fast demos
+
+## Run locally
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo storyline
+1. Connect Freighter.
+2. Create a payout with recipient, amount, and memo.
+3. Review wallet status and transaction confirmation.
+4. Use the dashboard to inspect activity, filters, and operational insights.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Hackathon fit
+- Real-world impact for OFW remittances and SME payouts
+- Stellar-native payment workflow
+- Demo-friendly, easy-to-explain MVP
 
-## Learn More
+## Build
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+The current MVP focuses on the payment cockpit, transaction overview, and operational visibility. The next iteration can add richer analytics, export, and deeper remittance-focused flows.
