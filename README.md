@@ -40,6 +40,10 @@ The platform acts as a modern financial cockpit for handling payouts with greate
 live demo link
 https://trustloop-payfloww.vercel.app/
 
+demo video link
+https://www.youtube.com/watch?v=ADB0WSeWO94
+
+
 # ✨ Core Features
 
 ## 🔗 Wallet Integration
