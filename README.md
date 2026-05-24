@@ -1,5 +1,10 @@
 # 🚀 TrustLoop PayFlow
 
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-Blue)
+![Stellar](https://img.shields.io/badge/Stellar-Testnet-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ### Stellar-Powered Payment Cockpit for Modern Financial Operations
 
 TrustLoop PayFlow is a next-generation payment operations platform built on Stellar, designed for OFW remittances, SME payouts, and modern financial workflows.
