@@ -103,9 +103,11 @@ The platform acts as a modern financial cockpit for handling payouts with greate
 
 # 📸 Product Preview
 
-<img width="1919" height="916" alt="3" src="https://github.com/user-attachments/assets/9247c8c7-6ac9-4c98-b15e-9a26f847c386" />
-<img width="1918" height="909" alt="2" src="https://github.com/user-attachments/assets/65bfdbec-0403-4e81-b814-0f22fd171c07" />
 <img width="1917" height="917" alt="1" src="https://github.com/user-attachments/assets/190fa370-c848-4eea-9291-f427aa209456" />
+<img width="1918" height="909" alt="2" src="https://github.com/user-attachments/assets/65bfdbec-0403-4e81-b814-0f22fd171c07" />
+<img width="1919" height="916" alt="3" src="https://github.com/user-attachments/assets/9247c8c7-6ac9-4c98-b15e-9a26f847c386" />
+
+
 
 
 ---
@@ -233,7 +235,23 @@ Contributions are welcome.
 5. Open a Pull Request
 
 ---
+# 🏛 Architecture
 
+User → Freighter Wallet → Stellar SDK → Stellar Testnet
+
+The application uses a wallet-first payment architecture powered by Stellar for fast and transparent transaction handling.
+
+# ⭐ Why Stellar?
+
+TrustLoop PayFlow leverages Stellar because of:
+
+- Fast settlement times
+- Low transaction fees
+- Global payment accessibility
+- Ideal infrastructure for remittances
+- Strong ecosystem for financial inclusion
+
+  
 # 👩‍💻 Developer
 
 Built with passion by Feyzanur Ateş
