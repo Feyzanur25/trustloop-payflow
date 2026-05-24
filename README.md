@@ -37,11 +37,13 @@ TrustLoop PayFlow simplifies financial operations through:
 The platform acts as a modern financial cockpit for handling payouts with greater clarity and efficiency.
 
 ---
-live demo link
-https://trustloop-payfloww.vercel.app/
+# 🔗 Live Demo
 
-demo video link
-https://www.youtube.com/watch?v=ADB0WSeWO94
+👉 https://trustloop-payfloww.vercel.app/
+
+# 🎥 Demo Video
+
+▶️ https://www.youtube.com/watch?v=ADB0WSeWO94
 
 
 # ✨ Core Features
